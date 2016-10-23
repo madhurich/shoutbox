@@ -1,0 +1,48 @@
+body, input[value]{
+	font-family: 'Mogra', cursive;
+	background-color: black;
+}
+.container{
+	border: 5px solid #ffccb3;
+	border-radius: 7px;
+	
+	background-color: #ff9966;
+	width: 70%;
+	margin:40px auto;
+	overflow: hidden;
+}
+header, footer{
+	background-color: #00ccff;
+	margin: auto;
+	text-align: center;
+}
+input{
+	border-radius: 5px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	padding: 10px;
+}
+#shouts{
+	height: 500px;
+}
+span.enter{
+	color: #00ff00;
+	font-size: 20px;
+}
+span#id1{
+	color:  #0000ff;
+	text-transform: capitalize;
+}
+span#id2{
+	color: #e62e00;
+}
+input#shout{
+	background-color: #00ccff;
+}
+input#shout:hover{
+	background-color: #008fb3;
+	cursor: pointer;
+}
